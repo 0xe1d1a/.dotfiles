@@ -1,9 +1,8 @@
 # Set defaults
-export EDITOR="nano"
+export EDITOR="subl3"
 export SUDO_EDITOR="nano"
 export BROWSER="chrome"
 export PAGER="less"
-export DE="mate"
 export TERMINAL="terminator"
 
 #remove duplicates and spaces
