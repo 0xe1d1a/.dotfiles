@@ -94,8 +94,6 @@ source $ZSH/oh-my-zsh.sh
 # aliases
 file="$HOME/.alias"; [ -f "$file" ] && source "$file"
 
-# Temprorary
-eval $(~/Documents/lsde/lsde2016-project/hathi-client/bin/env.sh)
 
 # get notified when someone logs in
 #watch=all                       # watch all logins
