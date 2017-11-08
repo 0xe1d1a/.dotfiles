@@ -25,10 +25,6 @@ alias gf='git reflog'
 # COMMON aliases
 # -------------------------------------------------------------------
 
-# -------------------------------------------------------------------
-# COMMON aliases
-# -------------------------------------------------------------------
-
 
 alias clr="clear && ls"
 
@@ -38,10 +34,6 @@ ds () { du -sh "${1-.}"/* | sort -hr ; }
 
 alias fn="find . -iname "
 
-
-cl() { \cd "${1-$HOME}" && l; }
-
-
 alias df="df -Tha --total"
 
 # tree command with directories listed first, ignoring .git/ dirs
@@ -50,7 +42,3 @@ tree() { command tree --dirsfirst -I '.git' --charset UTF8 -C "$@" | less -RNXF;
 alias ~="cd $HOME"
 alias ..="cd .."
 alias ...="cd ../../"
-
-
-
-

@@ -1,10 +1,11 @@
-ZSH=/usr/share/oh-my-zsh
+ZSH=~/.oh-my-zsh
 ZSH_THEME="dieter"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=100000
+SAVEHIST=100000
+
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -76,11 +77,6 @@ insert-root-prefix() {
 }
 zle -N insert-root-prefix
 bindkey '^S' insert-root-prefix
-
-# edit command in $EDITOR with ^E
-autoload -U   edit-command-line
-zle -N        edit-command-line
-bindkey '^E' edit-command-line
 
 # push current command to stack
 bindkey '^U' push-line
