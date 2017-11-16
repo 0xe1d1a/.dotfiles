@@ -78,11 +78,6 @@ insert-root-prefix() {
 zle -N insert-root-prefix
 bindkey '^S' insert-root-prefix
 
-# push current command to stack
-bindkey '^U' push-line
-# get last command from stack
-bindkey '^Y' get-line
-
 
 # omzh
 source $ZSH/oh-my-zsh.sh
@@ -90,6 +85,9 @@ source $ZSH/oh-my-zsh.sh
 # aliases
 file="$HOME/.alias"; [ -f "$file" ] && source "$file"
 
+# functions
+file="$HOME/.functions"; [ -f "$file" ] && source "$file"
+unset file;
 
 # get notified when someone logs in
 #watch=all                       # watch all logins

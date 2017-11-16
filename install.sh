@@ -8,7 +8,9 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="alias nano oh-my-zsh profile wgetrc zprofile zshrc"    # list of files/folders to symlink in homedir
+files="alias nano oh-my-zsh profile wgetrc nanorc
+zprofile zshrc screenrc gitignore gitconfig functions"    
+# list of files/folders to symlink in homedir
 
 ##########
 
