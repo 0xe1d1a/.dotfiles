@@ -87,7 +87,13 @@ file="$HOME/.alias"; [ -f "$file" ] && source "$file"
 
 # functions
 file="$HOME/.functions"; [ -f "$file" ] && source "$file"
+
+# extras
+file="$HOME/.extras"; [ -f "$file" ] && source "$file"
+
 unset file;
+
+
 
 # get notified when someone logs in
 #watch=all                       # watch all logins

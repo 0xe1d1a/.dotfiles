@@ -185,3 +185,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Ilias Diamantakos
+	email = el.diamantakos@gmail.com
