@@ -135,7 +135,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	 gpgsign = true
+	gpgsign = true
 
 [diff]
 
@@ -188,3 +188,6 @@
 [user]
 	name = Ilias Diamantakos
 	email = el.diamantakos@gmail.com
+	signingKey = EFC785104348B464
+[gpg]
+	program = gpg

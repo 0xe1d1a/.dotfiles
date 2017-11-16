@@ -5,6 +5,7 @@ export BROWSER="chrome"
 export PAGER="less"
 export TERMINAL="terminator"
 
+
 #remove duplicates and spaces
 export HISTCONTROL=erasedups:ignorespace
 
@@ -42,4 +43,5 @@ fi
 # define the prefered visual terminal
 export VTERM="x-terminal-emulator"
 
-
+# GPG fix for innapropriate ioctl device
+export GPG_TTY=`tty`
