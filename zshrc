@@ -78,6 +78,9 @@ insert-root-prefix() {
 zle -N insert-root-prefix
 bindkey '^S' insert-root-prefix
 
+plugins=(
+  docker osx
+)
 
 # omzh
 source $ZSH/oh-my-zsh.sh
