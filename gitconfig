@@ -188,6 +188,6 @@
 [user]
 	name = Ilias Diamantakos
 	email = el.diamantakos@gmail.com
-	signingKey = EFC785104348B464
+	signingKey = 3EACC24F70CBD239
 [gpg]
 	program = gpg

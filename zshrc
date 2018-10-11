@@ -79,7 +79,7 @@ zle -N insert-root-prefix
 bindkey '^S' insert-root-prefix
 
 plugins=(
-  docker osx
+  docker osx vagrant
 )
 
 # omzh
