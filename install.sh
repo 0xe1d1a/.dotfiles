@@ -6,7 +6,7 @@
 
 ########## Variables
 
-dir=~/.dotfiles                    # dotfiles directory
+dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="alias nano oh-my-zsh profile wgetrc nanorc extras
 zprofile zshrc screenrc gitignore gitconfig functions"    

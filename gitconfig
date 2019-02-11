@@ -182,7 +182,7 @@
 	insteadOf = "gist:"
 [user]
 	name = Ilias Diamantakos
-	email = el.diamantakos@gmail.com 
+	email = el.diamantakos@gmail.com
 	signingKey = 3EACC24F70CBD239
 [gpg]
 	program = gpg
