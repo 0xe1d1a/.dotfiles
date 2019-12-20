@@ -103,3 +103,4 @@ unset file;
 #logcheck=30                     # every 30 seconds
 #WATCHFMT="%n from %M has %a tty%l at %T %W"
 export PATH="/usr/local/sbin:$PATH"
+export GOPATH=$HOME/go
