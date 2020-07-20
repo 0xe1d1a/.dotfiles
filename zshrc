@@ -104,3 +104,6 @@ unset file;
 #WATCHFMT="%n from %M has %a tty%l at %T %W"
 export PATH="/usr/local/sbin:$PATH"
 export GOPATH=$HOME/go
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
